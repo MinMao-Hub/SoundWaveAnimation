@@ -13,6 +13,7 @@
 		AEB79D4F271EC39400A842F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB79D4D271EC39400A842F5 /* Main.storyboard */; };
 		AEB79D51271EC39600A842F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB79D50271EC39600A842F5 /* Assets.xcassets */; };
 		AEB79D54271EC39600A842F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB79D52271EC39600A842F5 /* LaunchScreen.storyboard */; };
+		AEB79D5C271ECA1100A842F5 /* SoundWaveAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB79D5B271ECA1100A842F5 /* SoundWaveAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AEB79D50271EC39600A842F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB79D53271EC39600A842F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB79D55271EC39600A842F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB79D5B271ECA1100A842F5 /* SoundWaveAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundWaveAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AEB79D47271EC39400A842F5 /* AppDelegate.swift */,
 				AEB79D49271EC39400A842F5 /* SceneDelegate.swift */,
 				AEB79D4B271EC39400A842F5 /* ViewController.swift */,
+				AEB79D5B271ECA1100A842F5 /* SoundWaveAnimationView.swift */,
 				AEB79D4D271EC39400A842F5 /* Main.storyboard */,
 				AEB79D50271EC39600A842F5 /* Assets.xcassets */,
 				AEB79D52271EC39600A842F5 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				AEB79D4C271EC39400A842F5 /* ViewController.swift in Sources */,
 				AEB79D48271EC39400A842F5 /* AppDelegate.swift in Sources */,
+				AEB79D5C271ECA1100A842F5 /* SoundWaveAnimationView.swift in Sources */,
 				AEB79D4A271EC39400A842F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
