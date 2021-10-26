@@ -215,7 +215,7 @@ class ViewController: UIViewController {
             view.waveWidth = 6
             view.waveHeight = 80
             view.waveDuration = 0.3
-            view.waveColor = .green
+            view.waveColor = .yellow
             view.instanceDelay = 0.05
             view.waveCornerRadius = 2
             self.view.addSubview(view)
@@ -232,6 +232,22 @@ class ViewController: UIViewController {
             view.waveHeight = 80
             view.waveDuration = 0.8
             view.waveColor = .white
+            view.instanceDelay = 0.02
+            view.waveCornerRadius = 2
+            self.view.addSubview(view)
+            view.startAnimation()
+        }
+        
+        do {
+            
+            let view = SoundWaveAnimationView(frame: CGRect(x: 10, y: 0, width: 400, height: 100))
+            view.center = CGPoint(x: self.view.bounds.width / 2, y: 830)
+            view.waveCount = 10
+            view.animationType = .bottom
+            view.waveWidth = 36
+            view.waveHeight = 100
+            view.waveDuration = 0.2
+            view.waveColor = .blue
             view.instanceDelay = 0.02
             view.waveCornerRadius = 2
             self.view.addSubview(view)
